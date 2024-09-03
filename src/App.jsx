@@ -5,6 +5,7 @@ import './App.css'
 import { run } from './GEMINI-API'
 import LoadingSpinner from './loading.jsx'
 import ReactMarkdown from 'react-markdown'
+import DateTimeDisplay from './date.jsx'
 
 // function App() {
 //   let [color, setcolor] = useState('red')
@@ -172,7 +173,9 @@ async function handleClick(){
           )}
         </>
       )} */}
-    
+   
+
+    <DateTimeDisplay />
     </>
   );
 }

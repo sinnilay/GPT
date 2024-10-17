@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const API_KEY="AIzaSyB61pFK59NPutPsY2-YnVhCDEc7F8-VcS4"
+const API_KEY="AIzaSyApECE9JixZkl0xLwB-a9JwpiKRmXk_e8c"
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash"});
@@ -31,11 +31,11 @@ export async function run(prompt) {
     
     let text =  response.text();
     // text = text.replace(/\*\*(.*?)\*\*/g, '$1');
-    // console.log(text);
+    console.log(text);
     return text;
     }
   }
   
-//   run();
+  // run();
 
 

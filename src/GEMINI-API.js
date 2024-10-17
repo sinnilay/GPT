@@ -31,7 +31,7 @@ export async function run(prompt) {
     
     let text =  response.text();
     // text = text.replace(/\*\*(.*?)\*\*/g, '$1');
-    console.log(text);
+    // console.log(text);
     return text;
     }
   }

@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const API_KEY="AIzaSyBL3vxxaBumcVAXbS_wq03OuBZ_yybFFsA"
+const API_KEY="AIzaSyD0SvN7NAAipe1-oOwGogrQyTUNIz2lMGk"
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash"});
@@ -36,6 +36,6 @@ export async function run(prompt) {
     }
   }
   
-  // run();
+  // run("hello");
 
 
